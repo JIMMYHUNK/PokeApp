@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ic_launcher_background"
+    android:background="@drawable/poke_color"
     tools:context=".Actividad2">
 
     <Button
@@ -12,7 +12,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="recuperar"
-        android:text="RECUPERAR"
+        android:text="POKEMON"
         tools:layout_editor_absoluteX="132dp"
         tools:layout_editor_absoluteY="16dp" />
 
@@ -53,8 +53,8 @@
                 android:id="@+id/name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Nombre:"
                 android:textSize="24sp"
-                tools:text="Nombre:"
                 tools:visibility="visible" />
 
             <TextView
@@ -97,8 +97,8 @@
                 android:id="@+id/tipe"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Tipo:"
                 android:textSize="24sp"
-                tools:text="Tipo:"
                 tools:visibility="visible" />
 
             <TextView
